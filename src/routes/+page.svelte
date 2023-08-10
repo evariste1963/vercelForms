@@ -8,8 +8,8 @@
   <button type="submit">submit</button>
 </form>
 
-{#if form}
+{#if form?.success}
   <p>{form.name}</p>
   <p>{form.email}</p>
-  <p>{form.success}</p>
+  <p>form successfully submitted 😃</p>
 {/if}
